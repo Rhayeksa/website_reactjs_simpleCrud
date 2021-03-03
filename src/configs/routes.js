@@ -12,7 +12,7 @@ const routes = [
     component: PageAdd,
   },
   {
-    path: "/karyawan/edit",
+    path: "/karyawan/edit/:id",
     component: PageEdit,
   },
 ];

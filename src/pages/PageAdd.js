@@ -12,6 +12,17 @@ import {
 import ComponentNavbar from "../components/ComponentNavbar";
 
 class PageAdd extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: {
+        nama: "",
+        birthDate: "",
+        position: "",
+      },
+    };
+  }
+
   render() {
     return (
       <div>
